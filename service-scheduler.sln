@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "service-scheduler", "service-scheduler\service-scheduler.csproj", "{A5A070FE-0ECF-416C-B2F7-4051468A7084}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{882DA2F0-6085-4B84-AA15-1ABD434BB002}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5A070FE-0ECF-416C-B2F7-4051468A7084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A070FE-0ECF-416C-B2F7-4051468A7084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A070FE-0ECF-416C-B2F7-4051468A7084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A070FE-0ECF-416C-B2F7-4051468A7084}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13B3768B-8275-4BF0-A1DD-1195D6DD70A2}
+	EndGlobalSection
+EndGlobal
