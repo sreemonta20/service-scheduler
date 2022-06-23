@@ -75,7 +75,8 @@ namespace secure_ftp_service.Core.Services
                 }
                 finally
                 {
-                    await Task.Delay(1000 * 60, cancellationToken);
+                    //await Task.Delay(1000 * 60, cancellationToken);
+                    await Task.Delay(TimeSpan.FromMinutes(1), cancellationToken);
                 }
             }
         }
