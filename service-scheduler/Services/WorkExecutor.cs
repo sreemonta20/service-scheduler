@@ -19,9 +19,10 @@ namespace secure_ftp_service.Core.Services
         AssistantHelper helper = new();
 
         /// <summary>
-        /// Constructor initialization 
+        /// Constructor initialization
         /// </summary>
         /// <param name="logService"></param>
+        /// <param name="client"></param>
         /// <param name="clientFactory"></param>
         public WorkExecutor(ILogService logService, HttpClient client, IHttpClientFactory clientFactory)
         {
